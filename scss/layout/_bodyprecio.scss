@@ -1,22 +1,31 @@
-
-.h1-coment{
-  color: burlywood ;
-  font-family: Arial, Helvetica, sans-serif;}
-
-  .nav-coment{
+.h1-precio{
+    font-family:Arial, Helvetica, sans-serif;
+    color: burlywood;
+    margin-bottom: 20px;
+  }
+  
+  
+  .nav-precio{
     display: flex;
     justify-content: center;
   }
   
-  .imagencoment{
+  .imagenprecio{
     width: 500px;
   }
   
-  .coment{
+  .valor{
     margin-top: 7%;
   }
   
-  .p-opiniones{
+  .p-valor{
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+    margin-top: 2%;
+    text-align:center;
+  }
+  
+  .p-valor2{
     font-family: Arial, Helvetica, sans-serif;
     color: burlywood;
     margin-top: 2%;
@@ -31,7 +40,4 @@
     justify-content: center;
   }
   
-  
- 
- @import "bodyreferencia.scss"
-  
+@import "_bodyprecio.scss"  

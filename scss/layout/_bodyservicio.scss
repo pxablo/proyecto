@@ -1,22 +1,21 @@
-
-.h1-trayectoria{
+.h1-servicios{
     color: burlywood ;
     font-family: Arial, Helvetica, sans-serif;}
   
-    .nav-trayectoria{
+    .nav-servicios{
       display: flex;
       justify-content: center;
     }
     
-    .imagentrayectoria{
+    .imagenservicio{
       width: 500px;
     }
     
-    .exp{
+    .ofertas{
       margin-top: 7%;
     }
     
-    .p-exp{
+    .p-ofertas{
       font-family: Arial, Helvetica, sans-serif;
       color: burlywood;
       margin-top: 2%;
@@ -30,6 +29,4 @@
       display: flex;
       justify-content: center;
     }
-    @import "bodytrayectoria.scss"
-    
-    
+  @import "_bodyservicio.scss"  

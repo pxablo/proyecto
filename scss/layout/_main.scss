@@ -1,5 +1,6 @@
 
 
+
 @keyframes Colorr {
     0%{
         color: black;
@@ -69,4 +70,4 @@ column-gap: 15px;}
         grid-row: 1/6;
         margin-left: 15%;
      }   
-     @use "main.scss"
+     @use "_main.scss"
