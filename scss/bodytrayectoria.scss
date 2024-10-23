@@ -1,0 +1,35 @@
+
+.h1-trayectoria{
+    color: burlywood ;
+    font-family: Arial, Helvetica, sans-serif;}
+  
+    .nav-trayectoria{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .imagentrayectoria{
+      width: 500px;
+    }
+    
+    .exp{
+      margin-top: 7%;
+    }
+    
+    .p-exp{
+      font-family: Arial, Helvetica, sans-serif;
+      color: burlywood;
+      margin-top: 2%;
+      text-align:center;
+    }
+    
+    .logo-link{
+      width:200px;
+    }
+    .nav-logo{
+      display: flex;
+      justify-content: center;
+    }
+    @import "bodytrayectoria.scss"
+    
+    

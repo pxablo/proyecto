@@ -1,0 +1,32 @@
+.h1-servicios{
+    color: burlywood ;
+    font-family: Arial, Helvetica, sans-serif;}
+  
+    .nav-servicios{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .imagenservicio{
+      width: 500px;
+    }
+    
+    .ofertas{
+      margin-top: 7%;
+    }
+    
+    .p-ofertas{
+      font-family: Arial, Helvetica, sans-serif;
+      color: burlywood;
+      margin-top: 2%;
+      text-align:center;
+    }
+    
+    .logo-link{
+      width:200px;
+    }
+    .nav-logo{
+      display: flex;
+      justify-content: center;
+    }
+  @import "bodyservicio.scss"  

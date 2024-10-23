@@ -1,0 +1,37 @@
+
+.h1-coment{
+  color: burlywood ;
+  font-family: Arial, Helvetica, sans-serif;}
+
+  .nav-coment{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imagencoment{
+    width: 500px;
+  }
+  
+  .coment{
+    margin-top: 7%;
+  }
+  
+  .p-opiniones{
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+    margin-top: 2%;
+    text-align:center;
+  }
+  
+  .logo-link{
+    width:200px;
+  }
+  .nav-logo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+ 
+ @import "bodyreferencia.scss"
+  
