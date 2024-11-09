@@ -5,6 +5,10 @@ padding: 0%;
 
 
 
+
+
+
+
 .body-index{
   flex-wrap: wrap;
   
@@ -341,10 +345,57 @@ h2{
    .div-beneficio-deluxe{
     
    }
+
  
 
+   @media (max-width: 600px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 10px 0;
+      flex-wrap: 
+    }
 
 
+    header{
+      align-items: 5px;
+    }
+    nav{
+      font-size:11px;
+
+    }
+
+    section{
+     align-items: first baseline;
+     flex-direction: row;
+    }
+  
+      
+    }
+  }
+
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+   
+  
 
 
 
